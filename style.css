@@ -1,3 +1,33 @@
 body {
     background: #ADD8E6;
   } 
+h1 {
+    color: rgb(223, 177, 51);
+    font-size: 50px;
+    font-family: monospace;
+    margin-top: 0%;
+}
+.topNav {
+    background:lightgray;
+    text-align: center;
+    width:300px;
+    font-size: 25px;
+    float: middle;
+    margin: 0 auto;
+}
+.divOne {
+    text-align: center;
+}
+
+.divBall {
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+}
+
+
+.divTwo {
+    text-align: center;
+}
