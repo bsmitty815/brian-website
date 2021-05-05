@@ -13,12 +13,17 @@ h1 {
 .topNav {
     background:lightgray;
     text-align: left;
+    padding-left: 25px;
     font-size: 25px;    
     float: middle;
     margin: 0 auto;
     word-spacing: 15px;
     font-weight: bold;
-}
+    border-bottom-left-radius:1% 50%;
+    border-bottom-right-radius:1% 50%;
+    border-top-right-radius:1% 50%;
+    border-top-left-radius:1% 50%;
+} /*this changes the navigation bar*/
 
 .divThree {
     text-align: center;
