@@ -38,6 +38,11 @@ a:hover img {
     margin: 0 auto;     
 }
 
+.medium-btn {
+    width: 150px;
+    height: 45px;
+}
+
 #box {
     background-image: url(old-trafford-goal.png);
     text-align: center;
@@ -50,7 +55,7 @@ div#bruno {
     content:url(bruno-fernandes-slide.png);
     width: 200px;
     height: 250px;
-    padding-top: 134px;
+    padding-top: 80px;
  }​
 
 
