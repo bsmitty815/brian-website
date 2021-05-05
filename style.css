@@ -30,6 +30,8 @@ h1 {
 .divOne {
     background: white;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 a img { display:none; }
