@@ -1,5 +1,7 @@
 body {
     background: #ADD8E6;
+    width: 900px;
+    margin: 0 auto;
   } 
 h1 {
     color: rgb(223, 177, 51);
@@ -11,20 +13,23 @@ h1 {
 .topNav {
     background:lightgray;
     text-align: center;
-    width:300px;
-    font-size: 25px;
+    font-size: 25px;    
     float: middle;
     margin: 0 auto;
-}
-.divOne {
-    text-align: center;
+    word-spacing: 15px;
+    font-weight: bold;
 }
 
-#box {
+.divThree {
     text-align: center;
-    margin: 0 auto;
-    height: 300px;
-    width: 600px;
+    z-index: -1;
+    position: relative;
+}
+
+
+.divOne {
+    background: white;
+    text-align: center;
 }
 
 a img { display:none; }
@@ -33,10 +38,19 @@ a:hover img {
     margin: 0 auto;     
 }
 
+#box {
+    background-image: url(old-trafford-goal.png);
+    text-align: center;
+    margin: 0 auto;
+    height: 384px;
+    width: 900px;
+}
+
 div#bruno {
     content:url(bruno-fernandes-slide.png);
     width: 200px;
     height: 250px;
+    padding-top: 134px;
  }​
 
 
