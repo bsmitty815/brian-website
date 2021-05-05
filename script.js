@@ -8,10 +8,22 @@ function init(){
  }    
  function moveRight(){
     imgObj.style.left = parseInt(imgObj.style.left) + 30 + 'px';
-
-
  }
  window.onload =init;
+// abobe code is for the bruno slide
+
+
+
+/*
+function myOverFunction() {
+   document.getElementById("mylieImg").innerHTML = "<img src=\"mylie.jpg\">";
+ }
+ function onMouseOut() {
+   document.getElementById("mylieImg").innerHTML = "mylie";
+ }
+ */
+// above code is for the mylie rollover but currently using the css rollover because it runs smoother
+
 
 
  
