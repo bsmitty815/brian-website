@@ -1,13 +1,17 @@
 body {
-    background: #ADD8E6;
+    background: whitesmoke;
     width: 900px;
     margin: 0 auto;
   } 
 h1 {
-    color: rgb(223, 177, 51);
+    color: #fcb839;
     font-size: 50px;
     font-family: monospace;
     margin-top: 0%;
+}
+
+.title {
+    z-index: -1;
 }
 
 .topNav {
@@ -26,10 +30,17 @@ h1 {
 } /*this changes the navigation bar*/
 
 .divThree {
+    background: #ADD8E6;
     text-align: center;
     z-index: -1;
     position: relative;
+    border-bottom-left-radius:2% 50%;
+    border-bottom-right-radius:2% 50%;
+    border-top-right-radius:2% 50%;
+    border-top-left-radius:2% 50%;
 }
+
+
 
 
 .divOne {
