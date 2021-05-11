@@ -3,14 +3,14 @@ body {
     width: 900px;
     margin: 0 auto;
   } 
-h1 {
+h1 { /*this makes changes to the h1*/
     color: #fcb839;
     font-size: 50px;
     font-family: monospace;
     margin-top: 0%;
 }
 
-.title {
+.title { /*this makes changes to the title*/
     z-index: -1;
     text-align: center;
     border-bottom-left-radius:2% 50%;
@@ -19,7 +19,7 @@ h1 {
     border-top-left-radius:2% 50%;
 }
 
-.topNav {
+.topNav {  /*this changes the navigation bar*/
     background:lightgray;
     text-align: left;
     padding-left: 25px;
@@ -32,7 +32,29 @@ h1 {
     border-bottom-right-radius:1% 50%;
     border-top-right-radius:1% 50%;
     border-top-left-radius:1% 50%;
-} /*this changes the navigation bar*/
+}
+ul { /*this makes changes to the navigation links*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+a:visited { /* visited link */
+    color: #EE7D24;
+    text-decoration: none;
+  }
+a:hover { /* mouse over link */
+    color: #24C3EE;
+    text-decoration: none;
+  }
+a:link { /* unvisited link */
+    color: #EE7D24;
+    text-decoration: none;
+  }
+a:active { /* selected link */
+    color: #EE7D24;
+    text-decoration: none;
+  }
+  
 
 .divThree {
     background: #ADD8E6;
@@ -48,25 +70,25 @@ h1 {
 
 
 
-.divOne {
+.divOne { 
     background: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 
-a img { display:none; }
+a img { display:none; } /*this makes changes to the mylie image*/
 a:hover img {
     display:block;
     margin: 0 auto;     
 }
 
-.medium-btn {
+.medium-btn { /*this makes changes to the slide button*/
     width: 150px;
     height: 45px;
 }
 
-#box {
+#box { /*this makes changes to the bruno slide background*/
     background-image: url(old-trafford-goal.png);
     text-align: center;
     margin: 0 auto;
@@ -74,7 +96,7 @@ a:hover img {
     width: 900px;
 }
 
-div#bruno {
+div#bruno { /*this makes changes to the bruno slide image*/
     content:url(bruno-fernandes-slide.png);
     width: 200px;
     height: 250px;
