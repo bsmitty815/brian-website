@@ -12,6 +12,11 @@ h1 {
 
 .title {
     z-index: -1;
+    text-align: center;
+    border-bottom-left-radius:2% 50%;
+    border-bottom-right-radius:2% 50%;
+    border-top-right-radius:2% 50%;
+    border-top-left-radius:2% 50%;
 }
 
 .topNav {
@@ -32,12 +37,12 @@ h1 {
 .divThree {
     background: #ADD8E6;
     text-align: center;
-    z-index: -1;
     position: relative;
     border-bottom-left-radius:2% 50%;
     border-bottom-right-radius:2% 50%;
     border-top-right-radius:2% 50%;
     border-top-left-radius:2% 50%;
+    z-index: -1;
 }
 
 
