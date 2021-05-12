@@ -6,12 +6,13 @@ function init(){
     imgObj.style.position= 'relative';
     imgObj.style.left = '0px';
  }    
- function moveRight(){ 
-    imgObj.style.left = parseInt(imgObj.style.left) + 30 + 'px';
- }
-
-
-
+ function moveRight(){
+   const leftNumbers = imgObj.style.left.replace("px", "");
+   const left = parseInt(leftNumbers, 10);
+   if (left < 700) {
+      imgObj.style.left = `${left + 30}px`;
+   }
+}
  window.onload =init;
 // above code is for the bruno slide
 
